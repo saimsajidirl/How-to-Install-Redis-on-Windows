@@ -17,36 +17,28 @@ Restart your laptop so the settings gets saved
 
 Step 3: Install ubuntu
 
-Open PowerShell/cmd as Administrator and run wsl and command to install ubuntu:
+Open PowerShell/cmd as Administrator use this command to install ubuntu:
 
-       wsl
        ubuntu
 
 This will install ubuntu 
 
 Step 4: Install Redis in WSL
 
-Once WSL is installed, open the Ubuntu terminal from the Start menu and run the following commands to update the package list and install Redis:
+Once ubuntu is installed, open the Ubuntu terminal from the Start menu and run the following commands to update the package list and install Redis:
+open cmd and type 'ubuntu' to run ubuntu then type these
 
     sudo apt update
     
     sudo apt install redis-server
 
-Step 5: Configure Redis
-
-Optionally, edit the Redis configuration file if needed. Open the file with:
-
-    sudo nano /etc/redis/redis.conf
-
-Set bind 127.0.0.1 and ensure protected-mode yes is set for security.
-
-Step 6: Start Redis Server
+Step 5: Start Redis Server
 
 Start Redis with the following command:
 
     sudo service redis-server start
 
-Step 7: Verify Redis Installation
+Step 6: Verify Redis Installation
 
 Test if Redis is running by connecting to it:
 
