@@ -1,4 +1,4 @@
-# How-to-Install-Redis-on-Windows
+# How to Install Redis on Windows
 
 
 Redis is officially supported on Linux, so using WSL is the recommended way to install and run Redis on Windows. Here's how to do it:
