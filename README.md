@@ -1,33 +1,29 @@
 # How to Install Redis on Windows
 
-
-Redis is officially supported on Linux, so using WSL is the recommended way to install and run Redis on Windows. Here's how to do it:
+Since Redis is officially supported on Linux, the recommended method to install and run it on Windows is by using WSL (Windows Subsystem for Linux). Follow these steps to set it up:
 
 ## Step 1: Install WSL
 
-Open PowerShell/cmd as Administrator and run the following command to install WSL:
+Open PowerShell or Command Prompt as Administrator and run the following command to install WSL:
 
     wsl --install
 
-This will install WSL and the default Linux distribution (typically Ubuntu).
+This will install WSL
 
-## Step 2: Restart your Laptop
+## Step 2: Restart Your Computer
 
-Restart your laptop so the settings gets saved
+Restart your computer to apply the changes properly.
 
 ## Step 3: Install ubuntu
 
-Open PowerShell/cmd as Administrator use this command to install ubuntu:
+To install Ubuntu, open PowerShell or Command Prompt as Administrator and execute:
 
        wsl --install Ubuntu
 
-This will install ubuntu 
 
 ## Step 4: Install Redis in WSL
 
-Once ubuntu is installed, open the terminal and run the following commands to update the package list and install Redis:
-
-open cmd and type 'ubuntu' to run ubuntu then type these
+Once Ubuntu is installed, open the terminal by typing ubuntu in Command Prompt and then run these commands:
 
     sudo apt update
     
