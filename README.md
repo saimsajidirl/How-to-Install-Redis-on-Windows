@@ -20,22 +20,29 @@ To install Ubuntu, open PowerShell or Command Prompt as Administrator and execut
 
        wsl --install Ubuntu
 
+## Step 4: Run Ubuntu and Create an Account
 
-## Step 4: Install Redis in WSL
+Once Ubuntu is installed, open the terminal and then run this command:
 
-Once Ubuntu is installed, open the terminal by typing ubuntu in Command Prompt and then run these commands:
+    wsl
+    
+This command will launch Ubuntu, prompting you to create a UNIX user account. Once the account is set up, Ubuntu will start running in the terminal.
+
+## Step 5: Install Redis in WSL
+
+After creating your UNIX account, run the following commands one by one:
 
     sudo apt update
     
     sudo apt install redis-server
 
-## Step 5: Start Redis Server
+## Step 6: Start Redis Server
 
 Start Redis with the following command:
 
     sudo service redis-server start
 
-## Step 6: Verify Redis Installation
+## Step 7: Verify Redis Installation
 
 Test if Redis is running by connecting to it:
 
